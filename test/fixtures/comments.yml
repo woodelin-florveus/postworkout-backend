@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyString
+  workout_post_id: MyString
+  integer: MyString
+  user_id: MyString
+  integer: MyString
+  likes: MyString
+  integer: MyString
+
+two:
+  content: MyString
+  workout_post_id: MyString
+  integer: MyString
+  user_id: MyString
+  integer: MyString
+  likes: MyString
+  integer: MyString
