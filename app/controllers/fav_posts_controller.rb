@@ -11,14 +11,14 @@ class FavPostsController < ApplicationController
 
     def create
 
-        if FavPost.find_by(workout_post_id: params[:workout_post_id])
-            return true
-        else 
+        # if FavPost.find_by(workout_post_id: params[:workout_post_id])
+        #     return true
+        # else 
 
             @fav_post = FavPost.create(workout_post_id: params[:workout_post_id], user_id: params[:user_id])
 
         render json: @fav_post
-        end
+        # end
     end
 
     def show
